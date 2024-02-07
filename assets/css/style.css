@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --primary-color: rgb(19, 99, 219);
+    --primary-color-darker: rgb(16, 53, 173);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 55px auto;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(82, 79, 79);
+    font-weight: bold;
+    align-items: center;
+    
+    
+}
+
+.btn-tarefa {
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.btn-tarefa:hover {
+    background-color: darkseagreen;
+}
+
+.btn-tarefa:active {
+    background-color: rgb(1, 117, 1) ;
+}
+
+button {
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 7px;
+    
+
+}
+
+button:hover {
+    background-color: crimson;
+    border: none;
+}
+
+button:active {
+    background-color: darkred;
+}
+
+input {
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 16px;
+}
+
+
+ul > li {
+    padding: 5px 3px;
+    color: rgb(82, 79, 79);
+    font-weight: 500;
+}
